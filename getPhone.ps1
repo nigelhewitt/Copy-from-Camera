@@ -1,15 +1,15 @@
 ﻿# set the camera folder
-$Source = "D5300\Removable storage\DCIM\103D5300"
+$Source = "Nigel's Z Flip3\Internal storage\DCIM\Camera"
 
 # set the destination folder
-$Destination = "D:\Camera\2022"
+$Destination = "D:\Camera\Phone2022"
 
 # do we want to delete files from the camera after the copy?
 $cleanup = $false
 
 #do we want to filter the input files?
 # no filter is "*" as it must match the entire string using ? and *
-$filter = "*"
+$filter = "2022*"
 
 Clear-Host
 Write-Host "Copy from " $Source " to " $Destination
